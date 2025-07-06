@@ -43,5 +43,17 @@ Detail dan Tugas Praktikum
 ![image](https://github.com/user-attachments/assets/53e50f88-ba5a-4789-90a1-a813c9c25702)
 ![image](https://github.com/user-attachments/assets/400e4235-6812-49cf-a03a-1c3b36c8a27f)
 
+Database
+![image](https://github.com/user-attachments/assets/e615200b-0b81-48b7-82ed-cc072cafd6c2)
+![image](https://github.com/user-attachments/assets/68a64aa9-6fb2-4536-98e7-e5afacb8570f)
+![image](https://github.com/user-attachments/assets/ff710cf6-ec61-4087-95da-24f135c43d98)
+![image](https://github.com/user-attachments/assets/6ce5a88d-1005-4420-903f-43c5af8a7829)
+![image](https://github.com/user-attachments/assets/bd80cafc-8d98-4f13-a33a-e89005350048)
+
+Contoh Validasi Hapus
+![image](https://github.com/user-attachments/assets/41fec264-d4b6-4bb1-a59f-8c574a2db97b)
+Contoh Edit Data
+![image](https://github.com/user-attachments/assets/a043117b-60ae-4c9c-a93e-a1cebd65d12c)
+
 
 
