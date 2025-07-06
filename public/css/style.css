@@ -1,0 +1,109 @@
+/* public/css/style.css */
+
+/* --- Custom Utility Classes --- */
+
+/* Enhanced Shadow for Cards */
+.shadow-6xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtle Glassmorphism Effect */
+.glassmorphism {
+    background-color: rgba(255, 255, 255, 0.05); /* Slightly visible white tint */
+    backdrop-filter: blur(15px) saturate(180%);
+    -webkit-backdrop-filter: blur(15px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* --- Scrollbar Styling (Dark Theme - Slightly adjusted) --- */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: #1a1a2e; /* Darker blue-ish background */
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #3e2060; /* Deep violet */
+    border-radius: 5px;
+    border: 2px solid #1a1a2e;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #5a2e8c; /* Lighter violet on hover */
+}
+
+/* --- Keyframe Animations --- */
+
+/* Fade-in Animation for elements (e.g., login/register cards) */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.98) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+.animate-fadeIn {
+    animation: fadeIn 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* Pulse Glow for interactive elements (Adjusted for cleaner look) */
+@keyframes pulseGlow {
+    0%, 100% {
+        box-shadow: 0 0 0px rgba(99, 102, 241, 0); /* Tailwind indigo-500 */
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(99, 102, 241, 0.6); /* Stronger indigo glow */
+    }
+}
+.animate-pulse-glow {
+    animation: pulseGlow 2.5s infinite ease-in-out;
+}
+
+/* --- Background Pattern (More subtle and integrated) --- */
+.bg-grid-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236366F1' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zm0-30V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 60px 60px;
+    background-attachment: fixed; /* Ensures pattern stays fixed while scrolling */
+}
+
+/* --- Core Layout (Keep the flexbox for full page height) --- */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #0F172A; /* Slate-900 for a deep dark background */
+    color: #E2E8F0; /* Slate-200 for general text */
+}
+
+/* Main content area will take up all available space */
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Allows content inside main to stack vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding-top: 5rem; /* Adjust for fixed header */
+    padding-bottom: 2rem;
+}
+
+/* Global Font Application */
+body {
+    font-family: 'Inter', sans-serif; /* Default body font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; /* Headings with Montserrat */
+}
+
+/* Specific adjustments for input/button text */
+input, button, select, a {
+    font-family: 'Inter', sans-serif;
+}
