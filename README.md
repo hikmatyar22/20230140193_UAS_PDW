@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c7f71ac7-1305-4b47-9c28-dd8c030c53c9)Tampilan Awal
+Tampilan Awal
 ![image](https://github.com/user-attachments/assets/39230975-9acc-40ca-b19d-fb514dfefec1)
 
 Login Dan Registrasi
