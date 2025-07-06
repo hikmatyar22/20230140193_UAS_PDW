@@ -23,7 +23,7 @@ Nilai Laporan
 ![image](https://github.com/user-attachments/assets/b09d7845-9210-4dc0-a68a-ee33b2fd97de)
 ![image](https://github.com/user-attachments/assets/9f43d399-8e65-447b-bdc0-a4594db9db98)
 Kelola Akun 
-![image](https://github.com/user-attachments/assets/f6937f66-601c-4a43-b024-30a0fe9c128f)
+![image](https://github.com/user-attachments/assets/d3bb6c70-23b9-4c6a-8794-62e53e0e7f51)
 ![image](https://github.com/user-attachments/assets/0273b137-4a2d-43dc-8f0a-b5e2ab72809a)
 ![image](https://github.com/user-attachments/assets/2fde60e9-1bba-42b0-a28d-1aeedf24e965)
 
